@@ -166,3 +166,6 @@ An alternative to fixing this problem would be to remove aliases altogether and 
 ![image](https://hippo-meoki.oss-cn-beijing.aliyuncs.com/hippo-ui/%E5%88%86%E9%A1%B5.png)
 
 
+### 注意
+ + 使用UI过程需要全局引入默认UI样式  否则没有UI
+ +   例如  import 'ui-hippo-test/dist/hippoUI.css'
