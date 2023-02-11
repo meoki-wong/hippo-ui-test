@@ -168,4 +168,5 @@ An alternative to fixing this problem would be to remove aliases altogether and 
 
 ### 注意
  + 使用UI过程需要全局引入默认UI样式  否则没有UI
- +   例如  import 'ui-hippo-test/dist/hippoUI.css'
+ + 例如  import 'ui-hippo-test/dist/hippoUI.css'
+ + 需要在项目中引入iconfont （某些组件需要使用icon 后期优化到组件中）
