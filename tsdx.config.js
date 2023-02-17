@@ -1,7 +1,6 @@
 const postcss = require('rollup-plugin-postcss');
 module.exports = {
   rollup(config, options) {
-    console.log('----option', options);
     config.plugins.push(
       postcss({
         inject: true,
