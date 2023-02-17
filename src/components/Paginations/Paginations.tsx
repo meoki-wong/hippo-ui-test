@@ -60,7 +60,7 @@ export default function Paginations(props: PaginationProps) {
 	const pageItem = () => {
 		/**总分页数量少于 @pageSize 页的情况下 */
 		if (pageArr.length < pageSize) {
-			return pageArr.map((item, index) => {
+			return pageArr.map((item: number, index: number) => {
 				return <li
 					key={index}
 					className={item === active ? "active-page" : ""}
